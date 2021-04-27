@@ -65,7 +65,7 @@ ptags:
 ### TOC
 
 We use the [TableOfContent](https://github.com/mcbSolutions/Pico-Plugins/blob/master/mcb_TableOfContent) plugin to generate table of content of each article.
-+ Clone the [https://github.com/mcbSolutions/Pico-Plugins](https://github.com/mcbSolutions/Pico-Plugins) repo or download it as a zip archive outside your `Pico` directory. 
++ Clone the [github.com/mcbSolutions/Pico-Plugins](https://github.com/mcbSolutions/Pico-Plugins) repo or download it as a zip archive outside your `Pico` directory. 
 + Copy the `mcb_TableOfContent` folder in your `plugins` directory.
 + The templates of this blog has already been set to use this plugin.
 + You can do the optional config.
@@ -73,7 +73,7 @@ We use the [TableOfContent](https://github.com/mcbSolutions/Pico-Plugins/blob/ma
 ### Comments
 
 We use the [pico-comments](https://github.com/push-eax/pico-comments) plugin to add comments to the blog's article.
-+ Clone the [https://github.com/push-eax/pico-comments](https://github.com/push-eax/pico-comments) repo or download it as a zip archive outside your `Pico` directory.
++ Clone the [github.com/push-eax/pico-comments](https://github.com/push-eax/pico-comments) repo or download it as a zip archive outside your `Pico` directory.
 + Copy the `PicoComments.php` file in a `PicoComments` folder in your `plugins` directory.
 + The templates of this blog has already been set to use this plugin.
 + add the following line to your `config.yml`
@@ -96,20 +96,23 @@ This theme provides 4 templates (twig) :
 
 ### Index
 
+It is **mandatory** to have a `index.md` in your `content` directory. It will appear on the left side of the homepage. 
 
 ### Article
 
 ```yaml
 ---
-Template: single
-comments: true
-Date: 2019-01-05
+Template: single --> template for article
+comments: true --> to allow comment, false to dissalow
+Date: 2019-01-05 
 title: Title of my article
-Tags: projet,latex
+Tags: projet,latex --> comma separated value (no space)
 ---
 ```
 
 ### Other pages 
+
+You can also have other pages than index and articles by creating a markdown file in your `content` directory with the *simple* template.
 
 ```yaml
 ---
@@ -124,4 +127,8 @@ demo : [pico-solarized-light-blog.web-en-royans.fr](http://pico-solarized-light-
 
 ## Thanks
 
++ [the story Pico Theme](https://github.com/BesrourMS/story)
 + [Solarized CSS](https://thomasf.github.io/solarized-css/)
++ [github.com/mcbSolutions/Pico-Plugins](https://github.com/mcbSolutions/Pico-Plugins) 
++ [pico-comments](https://github.com/push-eax/pico-comments)
++ [PicoTag](https://github.com/bricebou/PicoTags)
