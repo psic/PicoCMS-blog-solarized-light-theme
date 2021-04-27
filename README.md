@@ -27,7 +27,7 @@ theme:solarizedLightBlog
 logo: assets/myLogo.jpg
 ```
 
-With the `logo` line, you will config the logo of your blog. It is mandatory to provide and config this logo as a 32x32 image (jpg or png).
+With the `logo` line, you will config the logo of your blog. It is **mandatory** to provide and config this logo as a 32x32 image (jpg or png).
 
 
 ### Tags
@@ -88,22 +88,40 @@ PicoComments:
 ```
 ## Usage
 
-3 templates :
-+ index
-+ single
-+ simple
+This theme provides 4 templates (twig) :
++ index : the left part of the homepage
++ single : all articles
++ simple : all other pages
++ tags : list of article by tag
 
 ### Index
 
 
 ### Article
 
+```yaml
+---
+Template: single
+comments: true
+Date: 2019-01-05
+title: Title of my article
+Tags: projet,latex
+---
+```
 
 ### Other pages 
 
+```yaml
+---
+title: The title of my page
+Template: simple
+---
+```
 
 ## Demo
 
 demo : [pico-solarized-light-blog.web-en-royans.fr](http://pico-solarized-light-blog.web-en-royans.fr/)
 
 ## Thanks
+
++ [Solarized CSS](https://thomasf.github.io/solarized-css/)
