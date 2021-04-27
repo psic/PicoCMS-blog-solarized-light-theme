@@ -25,6 +25,7 @@ To use this theme blog, you have to install it, and install 3 others plugins.
 ```yaml
 theme:solarizedLightBlog 
 logo: assets/myLogo.jpg
+```
 
 With the `logo` line, you will config the logo of your blog. It is mandatory to provide and config this logo as a 32x32 image (jpg or png).
 
