@@ -68,10 +68,24 @@ We use the [TableOfContent](https://github.com/mcbSolutions/Pico-Plugins/blob/ma
 + Clone the [https://github.com/mcbSolutions/Pico-Plugins](https://github.com/mcbSolutions/Pico-Plugins) repo or download it as a zip archive outside your `Pico` directory. 
 + Copy the `mcb_TableOfContent` folder in your `plugins` directory.
 + The templates of this blog has already been set to use this plugin.
-+ You can make the optional config.
++ You can do the optional config.
 
 ### Comments
 
+We use the [pico-comments](https://github.com/push-eax/pico-comments) plugin to add comments to the blog's article.
++ Clone the [https://github.com/push-eax/pico-comments](https://github.com/push-eax/pico-comments) repo or download it as a zip archive outside your `Pico` directory.
++ Copy the `PicoComments.php` file in a `PicoComments` folder in your `plugins` directory.
++ The templates of this blog has already been set to use this plugin.
++ add the following line to your `config.yml`
+```yaml
+PicoComments:
+ # whether the comments plugin is enabled. comment data will not be available to Twig if this is false
+ enabled: true
+ # maximum character size of comments. comments larger than this will be rejected
+ comment_size_limit: 40000
+ # whether comments must be approved before displaying them to other users
+ comment_review: false
+```
 ## Usage
 
 3 templates :
