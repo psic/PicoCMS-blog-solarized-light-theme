@@ -62,6 +62,23 @@
     {% endfor %}
 </p>
 			</div>
+			<div id="social_logo">
+			<div class="social_logo">
+			{% if config.linkedin is defined %}
+			<a href="{{config.linkedin}}"><img src="{{ theme_url }}/images/linkedin-32px.png"></a>
+			{% endif %}
+			</div>
+			<div class="social_logo">
+			{% if config.github is defined %}
+			<a href="{{config.github}}"><img src="{{ theme_url }}/images/github-32px.png"></a>
+			{% endif %}
+			</div>
+			<div class="social_logo">
+			{% if config.twitter is defined %}
+			<a href="{{config.twitter}}"><img src="{{ theme_url }}/images/twitter-32px.png"></a>
+			{% endif %}
+			</div>
+			</div>
 			</div>
 		</div>
 		<div id="fh5co-main-content">

@@ -86,6 +86,13 @@ PicoComments:
  # whether comments must be approved before displaying them to other users
  comment_review: false
 ```
+### Plugin Directory
+
+Your plugin directory should look like this:
+```
+mcb_TableOfContent  PicoComments  PicoDeprecated  PicoTags
+```
+
 ## Usage
 
 This theme provides 4 templates (twig) :

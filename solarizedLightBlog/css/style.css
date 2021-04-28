@@ -59,7 +59,7 @@ a:hover, a:active, a:focus {
 }
 
 p, ul, ol {
-  margin-bottom: 30px;
+  margin-bottom: 5px;
   font-size: 18px;
   line-height: 38px;
 }
@@ -876,5 +876,13 @@ footer {
 .js .animate-box {
   opacity: 0;
 }
+#social_logo {
+	margin: auto;
+	width:50%;
+}
 
+.social_logo {
+	width:33%;
+	float:left;
+}
 /*# sourceMappingURL=style.css.map */
