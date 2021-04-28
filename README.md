@@ -127,6 +127,16 @@ title: The title of my page
 Template: simple
 ---
 ```
+### Social network links
+
+You can add 3 links (with logo) to social networks (twitter, LinkedIn and github) below the #tag list. Add this to your `config.yml`
+```yaml
+linkedin: https://my_linkedIn_url
+twitter: https://my_twitter_url
+github: https://my_github_url
+
+```
+
 
 ## Demo
 
