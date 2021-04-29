@@ -1,4 +1,4 @@
-# PicoCMS-blog-solarized-light-them
+# PicoCMS-blog-solarized-light-theme
 
 A picoCMS blog theme with solarized light colors. Including tags, comments and toc.
 Based on [the story Pico Theme](https://github.com/BesrourMS/story).
@@ -11,7 +11,7 @@ A simple [picoCMS](https://github.com/picocms/Pico) theme :
 + Solarized Light theme
 + Comments
 + Tags
-+ Table of cotent
++ Table of content
 
 ## Installation, Pico, version 2.x
 
