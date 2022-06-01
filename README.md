@@ -12,6 +12,7 @@ A simple [picoCMS](https://github.com/picocms/Pico) theme :
 + Comments
 + Tags
 + Table of content
++ Create diagrams using [mermaid-js](https://mermaid-js.github.io/mermaid/#/)
 
 ## Installation, Pico, version 2.x
 
